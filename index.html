@@ -13,12 +13,18 @@
         <input type="number" id="altura" placeholder="Digite sua altura">
         <input type="number" id="peso" placeholder="Digite seu peso (Kg)">
         <button onclick="Calcular()">Calcular</button>
-        <label  id="result">se fude</label>
+        <label type="Hidden" id="result"></label>
     </div>
 </body>
 </html>
 
 <script>
-
+    function CalcularIMC() {
+         var n1=document.getElementById("peso");
+         var n2=document.getElementById("altura");
+         var resultado = n1/Math.pow(n2, 2);
+          ;
+         alert(soma);
+      }
 
 </script>
