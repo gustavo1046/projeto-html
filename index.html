@@ -9,22 +9,21 @@
 </head>
 <body>
     <div class="principal">
-        <label>Calcule seu IMC</label> 
+        <label id ="title">Calcule seu IMC</label> 
         <input type="number" id="altura" placeholder="Digite sua altura">
         <input type="number" id="peso" placeholder="Digite seu peso (Kg)">
-        <button onclick="Calcular()">Calcular</button>
-        <label type="Hidden" id="result"></label>
+        <button onclick="CalcularIMC()">Calcular</button>
+        <label id="result"></label>
     </div>
 </body>
 </html>
 
 <script>
     function CalcularIMC() {
-         var n1=document.getElementById("peso");
-         var n2=document.getElementById("altura");
-         var resultado = n1/Math.pow(n2, 2);
-          ;
-         alert(soma);
+        const n1 = document.getElementById("peso").value;
+        const n2 = document.getElementById("altura").value;
+        const resultado = n1/(n2*n2);
+        var result = document.getElementById('result');
+        result.innerHTML = "Seu Indice de massa corporal é " + resultado;
       }
-
 </script>

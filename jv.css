@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDD8C4;
+    background-color: rgb(49, 49, 49);
+}
+
+.card {
+    padding: 100px 0px 100px 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 30%;
+    background-color: #84B59F;
+    border-radius: 500px;
+    box-shadow: 10px 10px 10px #a7ff5e;
+}
+
+input, button{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+label {
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+#IMC {
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    width: 70%;
+    height: 40px;
+    background-color: cornsilk;
+    font-size: 16px;
+}
+
